@@ -221,7 +221,6 @@ GameObject:
   - component: {fileID: 6513612448981031361}
   - component: {fileID: 3394084772461975268}
   - component: {fileID: 7581649971936685562}
-  - component: {fileID: 8728272114993059763}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -248,7 +247,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 1.072}
+  m_AnchoredPosition: {x: 0, y: 1.071991}
   m_SizeDelta: {x: 900, y: 600}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!223 &6513612448981031361
@@ -296,7 +295,7 @@ MonoBehaviour:
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
   m_DynamicPixelsPerUnit: 1
-  m_PresetInfoIsWorld: 1
+  m_PresetInfoIsWorld: 0
 --- !u!114 &7581649971936685562
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -316,33 +315,6 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RaycastTriggerInteraction: 1
---- !u!114 &8728272114993059763
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1808060522225026569}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8ed38ff63990b0a4286e3639aa5ae696, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  head: {fileID: 0}
-  spawnDistance: 0.8
-  menuButton:
-    m_UseReference: 0
-    m_Action:
-      m_Name: Menu Button
-      m_Type: 0
-      m_ExpectedControlType: 
-      m_Id: 7c6ddd5d-c2aa-481e-a150-ef7058d60504
-      m_Processors: 
-      m_Interactions: 
-      m_SingletonActionBindings: []
-      m_Flags: 0
-    m_Reference: {fileID: 0}
-  menuObject: {fileID: 1808060522225026569}
 --- !u!1 &1819140603320301123
 GameObject:
   m_ObjectHideFlags: 0

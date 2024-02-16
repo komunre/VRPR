@@ -883,6 +883,7 @@ GameObject:
   - component: {fileID: 1841642902983815310}
   - component: {fileID: 865780237129778785}
   - component: {fileID: 3527383927643114621}
+  - component: {fileID: 7369316496144345554}
   m_Layer: 7
   m_Name: XR Origin (XR Rig)
   m_TagString: Untagged
@@ -1143,6 +1144,33 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_System: {fileID: 4653459056792671086}
   m_DelayTime: 0
+--- !u!114 &7369316496144345554
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6429047144167579817}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ed38ff63990b0a4286e3639aa5ae696, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  head: {fileID: 8096225553239371479}
+  spawnDistance: 0.8
+  menuButton:
+    m_UseReference: 1
+    m_Action:
+      m_Name: Menu Button
+      m_Type: 0
+      m_ExpectedControlType: 
+      m_Id: 7c6ddd5d-c2aa-481e-a150-ef7058d60504
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    m_Reference: {fileID: 4857311725673369841, guid: c348712bda248c246b8c49b3db54643f, type: 3}
+  menuObject: {fileID: 0}
 --- !u!1 &7085335510258183225
 GameObject:
   m_ObjectHideFlags: 0
