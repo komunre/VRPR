@@ -1157,7 +1157,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   head: {fileID: 8096225553239371479}
-  spawnDistance: 0.8
+  spawnDistance: 1.3
   menuButton:
     m_UseReference: 1
     m_Action:

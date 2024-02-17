@@ -59,11 +59,15 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\InputSettingsComponent.cs" />
+    <Compile Include="Assets\Scripts\AttachableComponent.cs" />
     <Compile Include="Assets\Scripts\HapticComponent.cs" />
+    <Compile Include="Assets\Scripts\AccessoryAttachmentComponent.cs" />
     <Compile Include="Assets\Samples\Universal RP\14.0.8\URP Package Samples\LensFlares\Scripts\ScreenSpacePlacement.cs" />
     <Compile Include="Assets\Scripts\ActivatableComponent.cs" />
     <Compile Include="Assets\MenuControlComponent.cs" />
     <Compile Include="Assets\AnimateHandOnInput.cs" />
+    <Compile Include="Assets\Scripts\SimpleGunComponent.cs" />
+    <Compile Include="Assets\Scripts\MenuFunctions.cs" />
     <Compile Include="Assets\Samples\Universal RP\14.0.8\URP Package Samples\CameraStacking\3D Skybox\Scripts\SkyboxCamera.cs" />
     <Compile Include="Assets\Samples\Universal RP\14.0.8\URP Package Samples\RendererFeatures\KeepFrame\KeepFrameFeature.cs" />
     <Compile Include="Assets\Samples\Universal RP\14.0.8\URP Package Samples\SharedAssets\Scripts\FirstPersonController.cs" />
