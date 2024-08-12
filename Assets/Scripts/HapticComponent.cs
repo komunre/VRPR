@@ -9,12 +9,11 @@ public class HapticComponent : MonoBehaviour
     public float hapticTime = 0f;
     [SerializeField] protected XRBaseController controller;
 
-    public void TriggerHaptic()
+    public void TriggerHaptic(XRBaseController controller)
     {
-        if (hapticIntensity <= 0f || controller == null) return;
-        controller.SendHapticImpulse(hapticIntensity, hapticTime);
+        TriggerHapticOverride(controller, this.hapticIntensity, this.hapticTime);
     }
-    public void TriggerHapticOverride(float hapticIntensity, float hapticTime)
+    public void TriggerHapticOverride(XRBaseController controller, float hapticIntensity, float hapticTime)
     {
         if (hapticIntensity <= 0f || controller == null) return;
         controller.SendHapticImpulse(hapticIntensity, hapticTime);

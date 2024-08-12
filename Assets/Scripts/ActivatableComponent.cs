@@ -8,7 +8,7 @@ public class ActivatableComponent : MonoBehaviour
 {
     [SerializeField] protected XRGrabInteractable interactable;
     [SerializeField] protected HapticComponent haptic;
-    public UnityEvent activateEvent;
+    public UnityEvent<ActivateEventArgs> activateEvent;
 
     // Start is called before the first frame update
     void Start()
@@ -26,10 +26,11 @@ public class ActivatableComponent : MonoBehaviour
     public void ActivateEvent(ActivateEventArgs args)
     {
         if (activateEvent == null) return;
-        if (haptic != null)
+        Debug.Log("Activating interaction event for " + this.gameObject.name + " of " + activateEvent.ToString());
+        if (haptic != null && args.interactorObject is XRBaseControllerInteractor controllerInteractor)
         {
-            haptic.TriggerHaptic();
+            haptic.TriggerHaptic(controllerInteractor.xrController);
         }
-        activateEvent.Invoke();
+        activateEvent.Invoke(args);
     }
 }

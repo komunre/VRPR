@@ -3,7 +3,8 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Gameplay Object
   layers:
   - Default
   - TransparentFX
@@ -14,9 +15,9 @@ TagManager:
   - Player
   - Interactable
   - Table
-  - 
-  - 
-  - 
+  - Hand Movable
+  - Hand
+  - Terrain
   - 
   - 
   - 
